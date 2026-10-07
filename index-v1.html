@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4efe7">
+
+  <title>Amit Javali turns 50 🎉</title>
+  <meta name="description" content="Amit Javali is completing 49 years and stepping into 50. A special evening with school friends.">
+
+  <!-- WhatsApp / Facebook / social preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amit Javali turns 50 🎉">
+  <meta property="og:description" content="49 completed. 50 begins. School friends, memories, laughter and a special evening.">
+  <meta property="og:image" content="preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Amit Javali turns 50 🎉">
+  <meta name="twitter:description" content="A special birthday evening with school friends.">
+  <meta name="twitter:image" content="preview.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --cream:#f4efe7;
+      --paper:#fffdf9;
+      --sage:#6f8278;
+      --deep:#273a35;
+      --gold:#a47a3c;
+      --gold-soft:#d8bd8b;
+      --rose:#c58f88;
+      --ink:#27312e;
+      --muted:#68746f;
+      --line:#e8dfd2;
+      --shadow:0 18px 50px rgba(39,58,53,.10);
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--cream);
+      color:var(--ink);
+      font-family:"DM Sans",system-ui,sans-serif;
+      line-height:1.65;
+    }
+
+    a{color:inherit}
+    .page{max-width:720px;margin:auto;background:var(--paper);min-height:100vh;overflow:hidden}
+
+    .hero{
+      position:relative;
+      min-height:760px;
+      padding:42px 24px 36px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      background:
+        radial-gradient(circle at 15% 12%, rgba(216,189,139,.28), transparent 28%),
+        radial-gradient(circle at 90% 25%, rgba(197,143,136,.17), transparent 25%),
+        linear-gradient(180deg,#fffdf9 0%,#f4efe7 100%);
+    }
+
+    .eyebrow{
+      letter-spacing:.22em;
+      text-transform:uppercase;
+      font-size:11px;
+      font-weight:700;
+      color:var(--gold);
+      text-align:center;
+    }
+
+    .hero-copy{text-align:center;position:relative;z-index:2}
+    .hero h1{
+      font-family:"Playfair Display",Georgia,serif;
+      font-size:clamp(58px,16vw,104px);
+      line-height:.9;
+      margin:18px 0 4px;
+      color:var(--deep);
+      font-weight:600;
+    }
+
+    .hero h2{
+      font-family:"Playfair Display",Georgia,serif;
+      font-size:clamp(28px,7vw,46px);
+      margin:0;
+      color:var(--gold);
+    }
+
+    .hero p{max-width:480px;margin:16px auto 0;color:var(--muted);font-size:16px}
+
+    .portrait-wrap{
+      width:min(330px,78vw);
+      margin:18px auto 0;
+      position:relative;
+    }
+
+    .portrait-wrap:before{
+      content:"";
+      position:absolute;
+      inset:8% -5% -4%;
+      border:1px solid var(--gold-soft);
+      border-radius:50% 50% 44% 44%;
+      transform:rotate(4deg);
+    }
+
+    .portrait{
+      width:100%;
+      aspect-ratio:2/2.7;
+      object-fit:cover;
+      object-position:center top;
+      border-radius:50% 50% 42% 42%;
+      position:relative;
+      display:block;
+      filter:grayscale(100%);
+      box-shadow:var(--shadow);
+    }
+
+    .date-pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      margin:22px auto 0;
+      padding:11px 18px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:rgba(255,255,255,.76);
+      font-weight:700;
+      color:var(--deep);
+    }
+
+    .section{padding:66px 22px}
+    .section.alt{background:#f7f3ed}
+    .section-head{text-align:center;margin-bottom:28px}
+    .kicker{
+      color:var(--gold);
+      text-transform:uppercase;
+      letter-spacing:.18em;
+      font-size:10px;
+      font-weight:700;
+    }
+    .section h2{
+      font-family:"Playfair Display",Georgia,serif;
+      font-size:34px;
+      line-height:1.15;
+      margin:8px 0;
+      color:var(--deep);
+    }
+    .section-head p{margin:8px auto 0;max-width:560px;color:var(--muted)}
+
+    .story-card{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:28px;
+      padding:28px;
+      box-shadow:var(--shadow);
+      text-align:center;
+    }
+    .big-quote{
+      font-family:"Playfair Display",Georgia,serif;
+      font-size:26px;
+      color:var(--deep);
+      line-height:1.4;
+      margin:0 0 12px;
+    }
+
+    .timeline{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:10px;
+      margin-top:22px;
+    }
+    .timeline div{
+      background:#f7f3ed;
+      border-radius:18px;
+      padding:15px 8px;
+      text-align:center;
+    }
+    .timeline strong{display:block;font-size:20px;color:var(--gold)}
+    .timeline span{font-size:11px;color:var(--muted)}
+
+    .venue-card{
+      border:1px solid var(--line);
+      border-radius:28px;
+      overflow:hidden;
+      background:#fff;
+      box-shadow:var(--shadow);
+    }
+
+    .venue-photo{
+      width:100%;
+      height:230px;
+      object-fit:cover;
+      display:block;
+      background:
+        linear-gradient(135deg,rgba(39,58,53,.92),rgba(111,130,120,.72)),
+        url("https://b.zmtcdn.com/data/pictures/1/48851/82e0f766855f20045289de2a825c0565.jpeg") center/cover;
+    }
+
+    .venue-body{padding:25px}
+    .venue-name{
+      font-family:"Playfair Display",Georgia,serif;
+      font-size:28px;
+      color:var(--deep);
+      margin:0 0 6px;
+    }
+    .address{color:var(--muted);margin:0 0 18px}
+
+    .map-wrap{
+      margin-top:20px;
+      border-radius:20px;
+      overflow:hidden;
+      border:1px solid var(--line);
+      background:#eee;
+    }
+    .map-wrap iframe{
+      display:block;width:100%;height:330px;border:0;
+    }
+
+    .buttons{display:grid;gap:10px;margin-top:18px}
+    .btn{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:8px;
+      text-decoration:none;
+      padding:14px 18px;
+      border-radius:999px;
+      font-weight:700;
+      transition:transform .2s ease,box-shadow .2s ease;
+    }
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:var(--deep);color:white;box-shadow:0 10px 25px rgba(39,58,53,.18)}
+    .btn-secondary{background:#f7f3ed;color:var(--deep);border:1px solid var(--line)}
+
+    .game-intro{
+      background:linear-gradient(135deg,#eef2ed,#fbf7ef);
+      border:1px solid var(--line);
+      border-radius:26px;
+      padding:24px;
+      text-align:center;
+      margin-bottom:22px;
+    }
+
+    .question{
+      background:white;
+      border:1px solid var(--line);
+      border-radius:22px;
+      padding:22px;
+      margin:14px 0;
+      box-shadow:0 8px 24px rgba(39,58,53,.05);
+    }
+    .q-number{font-size:11px;color:var(--gold);font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    .question h3{font-size:18px;line-height:1.35;margin:7px 0 14px;color:var(--deep)}
+
+    .options{display:grid;gap:9px}
+    .option{
+      position:relative;
+    }
+    .option input{position:absolute;opacity:0}
+    .option label{
+      display:block;
+      border:1px solid var(--line);
+      border-radius:14px;
+      padding:12px 14px;
+      cursor:pointer;
+      background:#fffdf9;
+      transition:.18s ease;
+    }
+    .option input:checked + label{
+      background:#edf2ee;
+      border-color:var(--sage);
+      color:var(--deep);
+      font-weight:700;
+    }
+
+    .game-result{
+      display:none;
+      margin-top:18px;
+      padding:18px;
+      border-radius:18px;
+      background:#f3eee5;
+      text-align:center;
+      color:var(--deep);
+    }
+
+    .rules{
+      margin:18px 0 0;
+      color:var(--muted);
+      font-size:13px;
+      text-align:center;
+    }
+
+    .footer{
+      padding:48px 22px 70px;
+      background:var(--deep);
+      color:#f7f3ed;
+      text-align:center;
+    }
+    .footer h2{
+      font-family:"Playfair Display",Georgia,serif;
+      font-size:32px;
+      margin:0 0 10px;
+    }
+    .footer p{color:#d8e0db}
+    .signature{
+      margin-top:26px;
+      color:var(--gold-soft);
+      font-size:13px;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+
+    .floating{
+      position:fixed;
+      right:14px;
+      bottom:14px;
+      z-index:20;
+      width:52px;height:52px;
+      border-radius:50%;
+      display:grid;place-items:center;
+      background:var(--deep);color:#fff;
+      text-decoration:none;
+      box-shadow:0 12px 30px rgba(0,0,0,.2);
+    }
+
+    @media(max-width:420px){
+      .hero{min-height:700px}
+      .section{padding:52px 17px}
+      .timeline{gap:6px}
+      .timeline div{padding:12px 5px}
+      .map-wrap iframe{height:290px}
+    }
+  </style>
+</head>
+
+<body>
+<main class="page">
+
+  <section class="hero" id="top">
+    <div>
+      <div class="eyebrow">A little milestone. A lot of memories.</div>
+      <div class="hero-copy">
+        <h1>50</h1>
+        <h2>Amit Javali</h2>
+        <p>
+          49 years completed.<br>
+          Now officially stepping into the big <strong>5-0</strong> —
+          with the school gang still around! 😄
+        </p>
+
+        <div class="portrait-wrap">
+          <img class="portrait" src="amit-grayscale.png" alt="Amit Javali">
+        </div>
+
+        <div class="date-pill">🎉 Saturday · 31 October 2026</div>
+      </div>
+    </div>
+
+    <div class="eyebrow" style="letter-spacing:.12em">Come for the memories. Stay for the mischief. 🥂</div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="kicker">The reason to celebrate</div>
+      <h2>Some birthdays are numbers.<br>This one is a story.</h2>
+      <p>From school benches to half a century — some friendships simply refuse to grow old.</p>
+    </div>
+
+    <div class="story-card">
+      <p class="big-quote">
+        “50 is not old.<br>
+        It is just 18… with 32 years of experience.” 😎
+      </p>
+      <p style="color:var(--muted);margin:0">
+        So Amit is celebrating this milestone with the people who knew him
+        before the grey hairs, before the responsibilities… and before everyone
+        started pretending to be mature. 😂
+      </p>
+
+      <div class="timeline">
+        <div><strong>49</strong><span>Years completed</span></div>
+        <div><strong>50</strong><span>New chapter</span></div>
+        <div><strong>∞</strong><span>Old friends</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="venue">
+    <div class="section-head">
+      <div class="kicker">Where the reunion happens</div>
+      <h2>📍 See you at the venue</h2>
+      <p>No treasure hunt required. We have made the location rather obvious. 😉</p>
+    </div>
+
+    <div class="venue-card">
+      <div class="venue-photo" role="img" aria-label="Rude Lounge Powai venue image"></div>
+
+      <div class="venue-body">
+        <h3 class="venue-name">Rude Lounge, Powai</h3>
+        <p class="address">
+          B-Wing, Supreme Business Park, 8, South Avenue,<br>
+          Hiranandani Gardens, Powai,<br>
+          Mumbai, Maharashtra 400076
+        </p>
+
+        <div class="buttons">
+          <a class="btn btn-primary"
+             href="https://maps.app.goo.gl/M5gQCP8AaDsvXMwd7"
+             target="_blank" rel="noopener">
+            📍 Open Google Maps
+          </a>
+          <a class="btn btn-secondary" href="#game">🎯 Play the 50 Years Game</a>
+        </div>
+
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.622440318798!2d72.9082967!3d19.1109527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7e78792112f%3A0xf8a440bdf37bb42b!2sRude%20Lounge%20Powai!5e1!3m2!1sen!2sin!4v1791345607335!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            title="Rude Lounge Powai map"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <p style="font-size:12px;color:var(--muted);text-align:center;margin:14px 5px 0">
+      Venue photo is used as a visual preview. If you have an official/current venue photograph,
+      replace the background image in <strong>index.html</strong> for the final version.
+    </p>
+  </section>
+
+  <section class="section" id="game">
+    <div class="section-head">
+      <div class="kicker">Before you meet the birthday boy…</div>
+      <h2>🎯 50 Years — 5 Questions</h2>
+      <p>How well do you really know Amit? Make your guesses. The official answers can be revealed at the party. 😄</p>
+    </div>
+
+    <div class="game-intro">
+      <strong>Rules are simple:</strong><br>
+      No Google. No asking Amit. No cheating by asking his wife. 😂<br>
+      Just choose what you think!
+    </div>
+
+    <form id="quizForm">
+
+      <div class="question">
+        <div class="q-number">Question 01</div>
+        <h3>What is Amit's favourite kind of weekend?</h3>
+        <div class="options">
+          <div class="option"><input id="q1a" type="radio" name="q1" value="Travel"><label for="q1a">✈️ Travel somewhere</label></div>
+          <div class="option"><input id="q1b" type="radio" name="q1" value="Friends"><label for="q1b">🥂 Meet friends</label></div>
+          <div class="option"><input id="q1c" type="radio" name="q1" value="Home"><label for="q1c">🏠 Relax at home</label></div>
+          <div class="option"><input id="q1d" type="radio" name="q1" value="Adventure"><label for="q1d">🚗 Go on an adventure</label></div>
+        </div>
+      </div>
+
+      <div class="question">
+        <div class="q-number">Question 02</div>
+        <h3>Which colour do you think Amit would happily choose again and again?</h3>
+        <div class="options">
+          <div class="option"><input id="q2a" type="radio" name="q2" value="Black"><label for="q2a">🖤 Black</label></div>
+          <div class="option"><input id="q2b" type="radio" name="q2" value="Blue"><label for="q2b">💙 Blue</label></div>
+          <div class="option"><input id="q2c" type="radio" name="q2" value="White"><label for="q2c">🤍 White</label></div>
+          <div class="option"><input id="q2d" type="radio" name="q2" value="Other"><label for="q2d">🌈 Something else</label></div>
+        </div>
+      </div>
+
+      <div class="question">
+        <div class="q-number">Question 03</div>
+        <h3>Which hobby sounds most like Amit?</h3>
+        <div class="options">
+          <div class="option"><input id="q3a" type="radio" name="q3" value="Music"><label for="q3a">🎵 Music</label></div>
+          <div class="option"><input id="q3b" type="radio" name="q3" value="Reading"><label for="q3b">📚 Reading</label></div>
+          <div class="option"><input id="q3c" type="radio" name="q3" value="Travel"><label for="q3c">🌍 Travel</label></div>
+          <div class="option"><input id="q3d" type="radio" name="q3" value="Sports"><label for="q3d">🏏 Sports</label></div>
+        </div>
+      </div>
+
+      <div class="question">
+        <div class="q-number">Question 04</div>
+        <h3>What food would most likely make Amit say, “बस… अजून थोडं!”? 😋</h3>
+        <div class="options">
+          <div class="option"><input id="q4a" type="radio" name="q4" value="Indian"><label for="q4a">🍛 Indian food</label></div>
+          <div class="option"><input id="q4b" type="radio" name="q4" value="Chinese"><label for="q4b">🥢 Chinese</label></div>
+          <div class="option"><input id="q4c" type="radio" name="q4" value="Dessert"><label for="q4c">🍰 Dessert</label></div>
+          <div class="option"><input id="q4d" type="radio" name="q4" value="Anything"><label for="q4d">😋 Anything tasty!</label></div>
+        </div>
+      </div>
+
+      <div class="question">
+        <div class="q-number">Question 05 · The important one</div>
+        <h3>What does Amit value more?</h3>
+        <div class="options">
+          <div class="option"><input id="q5a" type="radio" name="q5" value="Money"><label for="q5a">💰 Money</label></div>
+          <div class="option"><input id="q5b" type="radio" name="q5" value="Food"><label for="q5b">🍕 Food</label></div>
+          <div class="option"><input id="q5c" type="radio" name="q5" value="Friends"><label for="q5c">❤️ Friends</label></div>
+          <div class="option"><input id="q5d" type="radio" name="q5" value="Sleep"><label for="q5d">😴 Sleep</label></div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="border:0;width:100%;font:inherit;cursor:pointer">
+        🎉 Lock My Answers
+      </button>
+
+      <div id="gameResult" class="game-result"></div>
+    </form>
+
+    <p class="rules">
+      *This first version intentionally keeps Amit's official answers secret.
+      You can edit the JavaScript later to reveal the real answers if you want a scored quiz.
+    </p>
+  </section>
+
+  <footer class="footer">
+    <h2>See you there! 🥂</h2>
+    <p>
+      Come with your memories.<br>
+      Leave with new ones.
+    </p>
+    <div class="signature">Amit's 50th · School Friends · 31 October 2026</div>
+  </footer>
+
+</main>
+
+<a class="floating" href="#top" aria-label="Back to top">↑</a>
+
+<script>
+  document.getElementById("quizForm").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    const names = ["q1","q2","q3","q4","q5"];
+    const answered = names.filter(n => document.querySelector(`input[name="${n}"]:checked`)).length;
+    const result = document.getElementById("gameResult");
+
+    result.style.display = "block";
+
+    if(answered < 5){
+      result.innerHTML =
+        `😄 You have answered <strong>${answered}/5</strong> questions.<br>
+         Go on — Amit deserves a little more effort than that!`;
+      return;
+    }
+
+    result.innerHTML =
+      `🎉 <strong>All 5 answers locked!</strong><br>
+       Your predictions are officially on record.<br>
+       Now meet Amit and find out how badly you know him! 😂`;
+    result.scrollIntoView({behavior:"smooth", block:"center"});
+  });
+</script>
+
+</body>
+</html>

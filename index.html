@@ -1,0 +1,2242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0e17">
+
+  <title>Amit Javali is Turning 50! 🎉 The Golden Jubilee Celebration</title>
+  <meta name="description" content="49 completed, 50 begins! Join us for a high-energy evening of school friends, nostalgia, drinks, and unforgettable laughs at Rude Lounge, Powai on Saturday, 31 October 2026.">
+
+  <!-- WhatsApp / Social Media Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amit Javali turns 50! 🎉 Join the Celebration">
+  <meta property="og:description" content="50 is just 18 with 32 years of experience! 🥂 Sat, 31 Oct 2026 @ Rude Lounge Powai. Tap to open invitation & play the 50 Years quiz!">
+  <meta property="og:image" content="preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Amit Javali turns 50! 🎉">
+  <meta name="twitter:description" content="Saturday, 31 October 2026 at Rude Lounge, Powai. Come for the memories, stay for the mischief!">
+  <meta name="twitter:image" content="preview.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <style>
+    :root {
+      --bg-dark: #090d16;
+      --bg-surface: #111724;
+      --card-bg: rgba(18, 25, 39, 0.82);
+      --card-border: rgba(245, 158, 11, 0.28);
+      --card-border-glow: rgba(245, 158, 11, 0.55);
+      
+      --gold-100: #fef3c7;
+      --gold-200: #fde68a;
+      --gold-300: #fcd34d;
+      --gold-400: #fbbf24;
+      --gold-500: #f59e0b;
+      --gold-600: #d97706;
+
+      --neon-coral: #ff4d6d;
+      --neon-purple: #a855f7;
+      --neon-cyan: #06b6d4;
+
+      --text-white: #ffffff;
+      --text-light: #e2e8f0;
+      --text-muted: #94a3b8;
+
+      --radius-sm: 12px;
+      --radius-md: 20px;
+      --radius-lg: 32px;
+      --radius-pill: 9999px;
+
+      --shadow-glow: 0 10px 40px rgba(245, 158, 11, 0.22);
+      --shadow-card: 0 20px 45px rgba(0, 0, 0, 0.5);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg-dark);
+    }
+
+    body {
+      background: var(--bg-dark);
+      color: var(--text-light);
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+      min-height: 100vh;
+      background-image: 
+        radial-gradient(circle at 10% 12%, rgba(245, 158, 11, 0.14) 0%, transparent 35%),
+        radial-gradient(circle at 90% 35%, rgba(255, 77, 109, 0.12) 0%, transparent 35%),
+        radial-gradient(circle at 25% 70%, rgba(168, 85, 247, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 80% 90%, rgba(6, 182, 212, 0.09) 0%, transparent 35%);
+      background-attachment: fixed;
+    }
+
+    /* Ambient background glowing particles */
+    .ambient-glow {
+      position: fixed;
+      pointer-events: none;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+    }
+
+    .glow-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      opacity: 0.28;
+      animation: floatOrb 18s ease-in-out infinite alternate;
+    }
+    .orb-1 { width: 280px; height: 280px; background: var(--gold-400); top: 10%; left: -60px; }
+    .orb-2 { width: 320px; height: 320px; background: var(--neon-coral); top: 52%; right: -80px; animation-duration: 22s; }
+    .orb-3 { width: 260px; height: 260px; background: var(--neon-purple); bottom: 10%; left: 10%; animation-duration: 26s; }
+
+    @keyframes floatOrb {
+      0% { transform: translateY(0) scale(1); }
+      100% { transform: translateY(60px) scale(1.15); }
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      max-width: 620px;
+      margin: 0 auto;
+      min-height: 100vh;
+      padding-bottom: 90px;
+    }
+
+    /* Shimmer Gold Text */
+    .gold-shimmer {
+      background: linear-gradient(110deg, #fef08a 0%, #fbbf24 35%, #ffffff 50%, #f59e0b 70%, #fef08a 100%);
+      background-size: 250% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shimmerGold 5s linear infinite;
+    }
+
+    @keyframes shimmerGold {
+      to { background-position: 250% center; }
+    }
+
+    /* Top Floating Music & Control Bar */
+    .top-controls {
+      position: fixed;
+      top: 14px;
+      right: 14px;
+      z-index: 100;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .audio-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 16px;
+      border-radius: var(--radius-pill);
+      background: rgba(17, 23, 36, 0.88);
+      border: 1.5px solid rgba(245, 158, 11, 0.45);
+      color: var(--gold-200);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+      transition: all 0.3s ease;
+    }
+    .audio-btn:hover {
+      border-color: var(--gold-400);
+      transform: scale(1.04);
+      box-shadow: 0 8px 30px var(--shadow-glow);
+    }
+    .audio-btn.playing {
+      border-color: var(--gold-400);
+      background: rgba(29, 39, 58, 0.95);
+      color: #fff;
+    }
+
+    .sound-waves {
+      display: flex;
+      align-items: flex-end;
+      gap: 2.5px;
+      height: 14px;
+    }
+    .sound-bar {
+      width: 2.5px;
+      height: 4px;
+      background: var(--gold-400);
+      border-radius: 2px;
+      transition: height 0.2s ease;
+    }
+    .audio-btn.playing .sound-bar:nth-child(1) { animation: wave 0.8s ease-in-out infinite alternate; }
+    .audio-btn.playing .sound-bar:nth-child(2) { animation: wave 1.2s ease-in-out infinite alternate 0.2s; }
+    .audio-btn.playing .sound-bar:nth-child(3) { animation: wave 0.9s ease-in-out infinite alternate 0.4s; }
+    .audio-btn.playing .sound-bar:nth-child(4) { animation: wave 1.1s ease-in-out infinite alternate 0.1s; }
+
+    @keyframes wave {
+      0% { height: 3px; }
+      100% { height: 14px; }
+    }
+
+    /* ══════════════════════════════════════════
+       ENTRANCE / OPENING MODAL OVERLAY
+    ══════════════════════════════════════════ */
+    .envelope-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 999;
+      background: radial-gradient(circle at center, #151e2e 0%, #060910 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+      transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .envelope-overlay.revealed {
+      opacity: 0;
+      transform: scale(1.08) translateY(-30px);
+      pointer-events: none;
+    }
+
+    .envelope-card {
+      background: linear-gradient(145deg, rgba(25, 35, 54, 0.92), rgba(12, 17, 26, 0.96));
+      border: 1.5px solid rgba(245, 158, 11, 0.45);
+      border-radius: var(--radius-lg);
+      padding: 42px 28px;
+      max-width: 440px;
+      width: 100%;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 50px rgba(245, 158, 11, 0.2);
+      position: relative;
+      overflow: hidden;
+      animation: popIn 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    @keyframes popIn {
+      0% { opacity: 0; transform: scale(0.85) translateY(20px); }
+      100% { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .vip-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 16px;
+      border-radius: var(--radius-pill);
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: var(--gold-300);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .envelope-50 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 84px;
+      font-weight: 900;
+      line-height: 1;
+      margin: 8px 0;
+      letter-spacing: -2px;
+      filter: drop-shadow(0 6px 20px rgba(245, 158, 11, 0.4));
+    }
+
+    .envelope-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      color: #fff;
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+
+    .envelope-text {
+      color: var(--text-muted);
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+
+    .btn-open-invite {
+      background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+      color: #0b0f19;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      padding: 16px 36px;
+      border-radius: var(--radius-pill);
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 12px 30px rgba(245, 158, 11, 0.45);
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      animation: pulseBtn 2s infinite;
+    }
+
+    .btn-open-invite:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 16px 40px rgba(245, 158, 11, 0.65);
+    }
+
+    @keyframes pulseBtn {
+      0%, 100% { box-shadow: 0 12px 30px rgba(245, 158, 11, 0.4); }
+      50% { box-shadow: 0 16px 45px rgba(245, 158, 11, 0.75); }
+    }
+
+    /* ══════════════════════════════════════════
+       HERO SECTION
+    ══════════════════════════════════════════ */
+    .hero {
+      position: relative;
+      padding: 56px 20px 32px;
+      text-align: center;
+    }
+
+    .badge-celebrate {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 18px;
+      border-radius: var(--radius-pill);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      color: var(--gold-200);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero-big-50-wrap {
+      position: relative;
+      margin: 18px 0 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-50 {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(90px, 24vw, 140px);
+      font-weight: 900;
+      line-height: 0.88;
+      letter-spacing: -4px;
+      filter: drop-shadow(0 12px 35px rgba(245, 158, 11, 0.45));
+      position: relative;
+      display: inline-block;
+      animation: floatFifty 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes floatFifty {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-6px); }
+    }
+
+    .sparkle-icon {
+      position: absolute;
+      color: var(--gold-300);
+      animation: sparkle 2s ease-in-out infinite alternate;
+    }
+    .sp-1 { top: -6px; right: 18%; font-size: 24px; }
+    .sp-2 { bottom: 10px; left: 18%; font-size: 20px; animation-delay: 1s; }
+
+    @keyframes sparkle {
+      0% { transform: scale(0.8) rotate(0deg); opacity: 0.5; }
+      100% { transform: scale(1.2) rotate(15deg); opacity: 1; }
+    }
+
+    .hero-name {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(34px, 9vw, 52px);
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.1;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    .hero-punchline {
+      font-size: 16px;
+      color: var(--gold-200);
+      font-weight: 600;
+      max-width: 440px;
+      margin: 0 auto 22px;
+      line-height: 1.5;
+    }
+
+    /* Amit's Portrait Frame */
+    .portrait-stage {
+      position: relative;
+      width: min(320px, 78vw);
+      margin: 16px auto 26px;
+    }
+
+    .portrait-glow {
+      position: absolute;
+      inset: -12px;
+      border-radius: 50% 50% 46% 46%;
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.4), rgba(255, 77, 109, 0.3), rgba(168, 85, 247, 0.4));
+      filter: blur(18px);
+      z-index: 1;
+      opacity: 0.8;
+      animation: pulseGlow 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulseGlow {
+      0% { opacity: 0.6; transform: scale(0.98); }
+      100% { opacity: 0.95; transform: scale(1.02); }
+    }
+
+    .portrait-frame {
+      position: relative;
+      z-index: 2;
+      border-radius: 50% 50% 44% 44%;
+      padding: 5px;
+      background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%);
+      box-shadow: var(--shadow-card), 0 0 35px rgba(245, 158, 11, 0.35);
+    }
+
+    .portrait-img {
+      width: 100%;
+      aspect-ratio: 1 / 1.25;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 50% 50% 42% 42%;
+      display: block;
+      background-color: #1a2233;
+    }
+
+    .portrait-badge {
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 3;
+      background: rgba(14, 19, 29, 0.94);
+      border: 1.5px solid var(--gold-400);
+      padding: 7px 18px;
+      border-radius: var(--radius-pill);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+      white-space: nowrap;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Key Event Chips */
+    .event-chips {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .chip {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 10px 18px;
+      border-radius: var(--radius-pill);
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      backdrop-filter: blur(8px);
+    }
+    .chip.highlight {
+      background: rgba(245, 158, 11, 0.16);
+      border-color: var(--gold-400);
+      color: var(--gold-100);
+      font-weight: 700;
+    }
+
+    /* Live Countdown Clock */
+    .countdown-section {
+      margin: 28px 0 16px;
+      background: linear-gradient(180deg, rgba(26, 36, 54, 0.6) 0%, rgba(16, 23, 36, 0.85) 100%);
+      border: 1px solid rgba(245, 158, 11, 0.28);
+      border-radius: var(--radius-md);
+      padding: 22px 16px;
+      box-shadow: var(--shadow-card);
+    }
+
+    .countdown-title {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold-300);
+      margin-bottom: 14px;
+    }
+
+    .countdown-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .count-box {
+      background: rgba(10, 14, 23, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: 14px;
+      padding: 12px 6px;
+      text-align: center;
+    }
+
+    .count-num {
+      font-family: 'Outfit', sans-serif;
+      font-size: 30px;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .count-lbl {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+    }
+
+    /* Quick Action Buttons in Hero */
+    .hero-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .btn-main {
+      padding: 14px 20px;
+      border-radius: var(--radius-pill);
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: all 0.25s ease;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-gold {
+      background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+      color: #0b0f19;
+      box-shadow: 0 8px 24px rgba(245, 158, 11, 0.35);
+    }
+    .btn-gold:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(245, 158, 11, 0.5);
+    }
+
+    .btn-glass {
+      background: rgba(255, 255, 255, 0.08);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      backdrop-filter: blur(10px);
+    }
+    .btn-glass:hover {
+      background: rgba(255, 255, 255, 0.14);
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: translateY(-2px);
+    }
+
+    /* ══════════════════════════════════════════
+       SECTION STRUCTURE
+    ══════════════════════════════════════════ */
+    .section-wrap {
+      padding: 44px 18px;
+      position: relative;
+    }
+
+    .sec-header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .sec-kicker {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold-400);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .sec-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(26px, 7vw, 36px);
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.2;
+    }
+
+    .sec-sub {
+      color: var(--text-muted);
+      font-size: 15px;
+      margin-top: 8px;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ══════════════════════════════════════════
+       STORY / HUMOR CARD
+    ══════════════════════════════════════════ */
+    .story-card {
+      background: linear-gradient(160deg, rgba(22, 31, 47, 0.85) 0%, rgba(13, 19, 31, 0.95) 100%);
+      border: 1.5px solid rgba(245, 158, 11, 0.25);
+      border-radius: var(--radius-lg);
+      padding: 30px 24px;
+      box-shadow: var(--shadow-card);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .story-quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 23px;
+      line-height: 1.4;
+      color: var(--gold-100);
+      margin-bottom: 16px;
+      font-style: italic;
+    }
+
+    .story-body {
+      color: var(--text-light);
+      font-size: 15px;
+      line-height: 1.7;
+      margin-bottom: 24px;
+    }
+
+    .milestone-badges {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .m-badge {
+      background: rgba(10, 14, 23, 0.8);
+      border: 1px solid rgba(245, 158, 11, 0.2);
+      border-radius: 16px;
+      padding: 16px 8px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .m-badge:hover {
+      transform: translateY(-3px);
+      border-color: var(--gold-400);
+    }
+    .m-badge strong {
+      font-family: 'Outfit', sans-serif;
+      font-size: 24px;
+      color: var(--gold-400);
+      display: block;
+      line-height: 1.1;
+    }
+    .m-badge span {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-top: 4px;
+      display: block;
+    }
+
+    /* ══════════════════════════════════════════
+       THE QUIZ SECTION (BEFORE VENUE SECTION!)
+    ══════════════════════════════════════════ */
+    .quiz-card {
+      background: linear-gradient(180deg, rgba(25, 34, 52, 0.9) 0%, rgba(14, 20, 32, 0.95) 100%);
+      border: 1.5px solid rgba(245, 158, 11, 0.35);
+      border-radius: var(--radius-lg);
+      padding: 28px 20px;
+      box-shadow: var(--shadow-card), 0 0 40px rgba(245, 158, 11, 0.15);
+    }
+
+    .rules-banner {
+      background: rgba(245, 158, 11, 0.1);
+      border: 1px dashed rgba(245, 158, 11, 0.4);
+      border-radius: var(--radius-md);
+      padding: 14px 16px;
+      margin-bottom: 24px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--gold-200);
+      line-height: 1.5;
+    }
+
+    .question-block {
+      background: rgba(12, 17, 28, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: var(--radius-md);
+      padding: 20px 18px;
+      margin-bottom: 18px;
+      transition: border-color 0.25s ease;
+    }
+    .question-block:hover {
+      border-color: rgba(245, 158, 11, 0.35);
+    }
+
+    .q-tag {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold-400);
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .q-text {
+      font-size: 17px;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.35;
+      margin-bottom: 14px;
+    }
+
+    .options-grid {
+      display: grid;
+      gap: 9px;
+    }
+
+    .quiz-option {
+      position: relative;
+    }
+    .quiz-option input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .quiz-option label {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 13px 16px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.035);
+      border: 1.5px solid rgba(255, 255, 255, 0.1);
+      color: var(--text-light);
+      font-size: 14.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+    .quiz-option label:hover {
+      background: rgba(255, 255, 255, 0.07);
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .quiz-option input[type="radio"]:checked + label {
+      background: rgba(245, 158, 11, 0.18);
+      border-color: var(--gold-400);
+      color: #ffffff;
+      font-weight: 700;
+      box-shadow: 0 4px 16px rgba(245, 158, 11, 0.2);
+    }
+
+    .quiz-option label .radio-indicator {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.2s ease;
+    }
+    .quiz-option input[type="radio"]:checked + label .radio-indicator {
+      border-color: var(--gold-400);
+      background: var(--gold-500);
+      box-shadow: 0 0 10px var(--gold-400);
+    }
+    .quiz-option label .radio-indicator::after {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #0a0e17;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+    .quiz-option input[type="radio"]:checked + label .radio-indicator::after {
+      opacity: 1;
+    }
+
+    .btn-submit-quiz {
+      width: 100%;
+      padding: 16px 24px;
+      border-radius: var(--radius-pill);
+      background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+      color: #0a0e17;
+      font-size: 16px;
+      font-weight: 800;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 10px 30px rgba(245, 158, 11, 0.4);
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+    .btn-submit-quiz:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 40px rgba(245, 158, 11, 0.6);
+    }
+
+    /* Quiz Score & Breakdown Modal/Card */
+    .quiz-result-box {
+      display: none;
+      margin-top: 24px;
+      background: linear-gradient(155deg, rgba(20, 29, 46, 0.95), rgba(12, 17, 28, 0.98));
+      border: 2px solid var(--gold-400);
+      border-radius: var(--radius-md);
+      padding: 26px 20px;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 40px rgba(245, 158, 11, 0.25);
+      animation: popIn 0.5s ease;
+    }
+
+    .score-circle {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(245, 158, 11, 0.25) 0%, rgba(10, 14, 23, 0.9) 70%);
+      border: 3px solid var(--gold-400);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+      box-shadow: 0 0 25px rgba(245, 158, 11, 0.5);
+    }
+    .score-num {
+      font-family: 'Outfit', sans-serif;
+      font-size: 32px;
+      font-weight: 900;
+      color: #fff;
+      line-height: 1;
+    }
+    .score-max {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--gold-300);
+      text-transform: uppercase;
+    }
+
+    .score-badge-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .score-message {
+      font-size: 14.5px;
+      color: var(--text-light);
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .answers-breakdown {
+      text-align: left;
+      margin: 20px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 18px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .ans-item {
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-size: 13.5px;
+      border-left: 3px solid var(--gold-400);
+    }
+    .ans-item strong {
+      color: var(--gold-300);
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .btn-share-whatsapp {
+      background: #25d366;
+      color: #ffffff;
+      padding: 14px 24px;
+      border-radius: var(--radius-pill);
+      font-weight: 800;
+      font-size: 14.5px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 8px 24px rgba(37, 211, 102, 0.35);
+      transition: all 0.25s ease;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .btn-share-whatsapp:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(37, 211, 102, 0.5);
+    }
+
+    /* ══════════════════════════════════════════
+       VENUE & ATMOSPHERE (RUDE LOUNGE POWAI)
+    ══════════════════════════════════════════ */
+    .venue-card {
+      background: linear-gradient(180deg, rgba(22, 31, 48, 0.85) 0%, rgba(13, 19, 31, 0.95) 100%);
+      border: 1.5px solid rgba(245, 158, 11, 0.28);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+    }
+
+    .venue-gallery {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4px;
+      background: #000;
+    }
+
+    .venue-img-wrap {
+      position: relative;
+      overflow: hidden;
+      height: 220px;
+    }
+    .venue-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+      display: block;
+    }
+    .venue-img-wrap:hover img {
+      transform: scale(1.08);
+    }
+
+    .venue-badge-overlay {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      right: 8px;
+      background: rgba(10, 14, 23, 0.8);
+      backdrop-filter: blur(8px);
+      border-radius: 8px;
+      padding: 4px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .venue-content {
+      padding: 26px 20px;
+    }
+
+    .venue-name-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .venue-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 800;
+      color: #ffffff;
+    }
+
+    .vibe-tag {
+      background: rgba(255, 77, 109, 0.18);
+      border: 1px solid var(--neon-coral);
+      color: #ff8ca3;
+      padding: 4px 12px;
+      border-radius: var(--radius-pill);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .venue-address {
+      color: var(--text-light);
+      font-size: 14.5px;
+      line-height: 1.6;
+      margin-bottom: 18px;
+      display: flex;
+      gap: 10px;
+    }
+    .venue-address-icon {
+      color: var(--gold-400);
+      font-size: 20px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .copy-btn {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      color: var(--gold-200);
+      padding: 8px 14px;
+      border-radius: var(--radius-pill);
+      font-size: 12.5px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      margin-bottom: 20px;
+    }
+    .copy-btn:hover {
+      background: rgba(245, 158, 11, 0.15);
+      border-color: var(--gold-400);
+    }
+
+    .venue-nav-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .btn-maps {
+      background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+      color: #ffffff;
+      padding: 14px 20px;
+      border-radius: var(--radius-pill);
+      font-size: 14.5px;
+      font-weight: 700;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 8px 24px rgba(37, 99, 235, 0.35);
+      transition: transform 0.2s ease;
+    }
+    .btn-maps:hover {
+      transform: translateY(-2px);
+    }
+
+    .rides-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .btn-ride {
+      padding: 12px 14px;
+      border-radius: var(--radius-pill);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #fff;
+      font-size: 13.5px;
+      font-weight: 700;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .btn-ride:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: translateY(-2px);
+    }
+
+    .map-container {
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      background: #141b2a;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+    .map-container iframe {
+      display: block;
+      width: 100%;
+      height: 300px;
+      border: 0;
+      filter: invert(90%) hue-rotate(180deg) contrast(95%);
+    }
+
+    /* Itinerary & Dress Code */
+    .itinerary-card {
+      background: linear-gradient(160deg, rgba(22, 31, 48, 0.8) 0%, rgba(13, 19, 31, 0.9) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-lg);
+      padding: 26px 20px;
+      margin-top: 24px;
+    }
+
+    .timeline-steps {
+      display: grid;
+      gap: 16px;
+      position: relative;
+      margin-top: 16px;
+    }
+    .timeline-steps::before {
+      content: "";
+      position: absolute;
+      top: 15px;
+      bottom: 15px;
+      left: 17px;
+      width: 2px;
+      background: linear-gradient(180deg, var(--gold-400), var(--neon-coral), var(--neon-purple));
+    }
+
+    .step-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      position: relative;
+    }
+    .step-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #111726;
+      border: 2px solid var(--gold-400);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      flex-shrink: 0;
+      z-index: 2;
+      box-shadow: 0 0 12px rgba(245, 158, 11, 0.4);
+    }
+    .step-info strong {
+      color: #fff;
+      font-size: 15px;
+      display: block;
+    }
+    .step-info span {
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    .dress-code-badge {
+      margin-top: 22px;
+      background: rgba(168, 85, 247, 0.12);
+      border: 1px solid rgba(168, 85, 247, 0.35);
+      border-radius: var(--radius-md);
+      padding: 14px 18px;
+      text-align: center;
+      color: #e9d5ff;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    /* ══════════════════════════════════════════
+       RSVP & CALENDAR SECTION
+    ══════════════════════════════════════════ */
+    .rsvp-box {
+      background: linear-gradient(145deg, rgba(29, 39, 61, 0.95), rgba(16, 23, 36, 0.98));
+      border: 2px solid var(--gold-400);
+      border-radius: var(--radius-lg);
+      padding: 34px 22px;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), 0 0 45px rgba(245, 158, 11, 0.25);
+      position: relative;
+    }
+
+    .rsvp-attendance-selector {
+      display: grid;
+      gap: 10px;
+      margin: 22px 0 26px;
+      text-align: left;
+    }
+
+    .rsvp-option {
+      position: relative;
+    }
+    .rsvp-option input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .rsvp-option label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      color: #fff;
+      font-weight: 600;
+      font-size: 14.5px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .rsvp-option input:checked + label {
+      background: rgba(37, 211, 102, 0.15);
+      border-color: #25d366;
+      color: #ffffff;
+      font-weight: 700;
+      box-shadow: 0 4px 18px rgba(37, 211, 102, 0.25);
+    }
+
+    .btn-rsvp-whatsapp {
+      background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+      color: #ffffff;
+      padding: 18px 28px;
+      border-radius: var(--radius-pill);
+      font-size: 16px;
+      font-weight: 800;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .btn-rsvp-whatsapp:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 15px 40px rgba(37, 211, 102, 0.6);
+    }
+
+    .utility-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .btn-utility {
+      padding: 13px 16px;
+      border-radius: var(--radius-pill);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      color: var(--text-light);
+      font-size: 13.5px;
+      font-weight: 700;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .btn-utility:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: var(--gold-400);
+      color: #fff;
+    }
+
+    /* ══════════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════════ */
+    .site-footer {
+      text-align: center;
+      padding: 50px 20px 40px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      margin-top: 40px;
+    }
+
+    .footer-quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .footer-sub {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+
+    .footer-credit {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold-400);
+    }
+
+    /* Toast Notification */
+    .toast-msg {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: rgba(14, 20, 32, 0.95);
+      border: 1px solid var(--gold-400);
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: var(--radius-pill);
+      font-size: 14px;
+      font-weight: 700;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+      z-index: 1000;
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .toast-msg.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* Mobile adaptations */
+    @media (max-width: 440px) {
+      .hero { padding: 48px 16px 24px; }
+      .section-wrap { padding: 36px 14px; }
+      .countdown-grid { gap: 6px; }
+      .count-num { font-size: 26px; }
+      .milestone-badges { gap: 6px; }
+      .m-badge strong { font-size: 20px; }
+      .venue-gallery { grid-template-columns: 1fr; }
+      .venue-img-wrap { height: 180px; }
+      .hero-actions { grid-template-columns: 1fr; }
+      .utility-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Ambient Light Orbs -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <!-- Audio Controls Floating Pill -->
+  <div class="top-controls">
+    <button id="audioToggleBtn" class="audio-btn" aria-label="Toggle party celebration music">
+      <span class="sound-waves" aria-hidden="true">
+        <span class="sound-bar"></span>
+        <span class="sound-bar"></span>
+        <span class="sound-bar"></span>
+        <span class="sound-bar"></span>
+      </span>
+      <span id="audioBtnText">🎵 Party Vibe</span>
+    </button>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       ENTRANCE INVITATION MODAL
+  ══════════════════════════════════════════ -->
+  <aside id="entranceOverlay" class="envelope-overlay" aria-label="Welcome Invitation">
+    <div class="envelope-card">
+      <div class="vip-tag">✨ VIP Invitation · School Gang Edition ✨</div>
+      <div class="envelope-50 gold-shimmer">50</div>
+      <h1 class="envelope-title">Amit Javali</h1>
+      <p class="envelope-text">
+        49 years completed. Stepping into the big 5-0! 🥂<br>
+        You are warmly invited to an unforgettable evening of nostalgia, drinks, and school-time mischief.
+      </p>
+      <button id="btnOpenInvite" class="btn-open-invite">
+        🍾 Open Invitation & Party
+      </button>
+    </div>
+  </aside>
+
+  <!-- ══════════════════════════════════════════
+       MAIN INVITATION CONTENT
+  ══════════════════════════════════════════ -->
+  <main class="wrapper">
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="top">
+      <div class="badge-celebrate">
+        <span>🥂 Half A Century Of Awesomeness</span>
+      </div>
+
+      <div class="hero-big-50-wrap">
+        <span class="sparkle-icon sp-1">✨</span>
+        <div class="hero-50 gold-shimmer">50</div>
+        <span class="sparkle-icon sp-2">✨</span>
+      </div>
+
+      <h1 class="hero-name">Amit Javali</h1>
+      <p class="hero-punchline">
+        49 completed, and now stepping into 50 with the original school gang! 😄
+      </p>
+
+      <!-- Birthday Boy Portrait -->
+      <div class="portrait-stage">
+        <div class="portrait-glow"></div>
+        <div class="portrait-frame">
+          <img class="portrait-img" src="amit-portrait.jpg" alt="Amit Javali - 50th Birthday">
+        </div>
+        <div class="portrait-badge">
+          <span>👑 Birthday Boy · Still 18 At Heart</span>
+        </div>
+      </div>
+
+      <!-- Quick Details Chips -->
+      <div class="event-chips">
+        <div class="chip highlight">
+          <span>📅 Saturday, 31 October 2026</span>
+        </div>
+        <div class="chip">
+          <span>⏰ 7:30 PM Onwards</span>
+        </div>
+        <div class="chip">
+          <span>📍 Rude Lounge, Powai, Mumbai</span>
+        </div>
+      </div>
+
+      <!-- Live Countdown Clock -->
+      <section class="countdown-section" aria-label="Countdown to party">
+        <div class="countdown-title">⏳ The Big 5-0 Countdown Is Ticking</div>
+        <div class="countdown-grid">
+          <div class="count-box">
+            <div id="cDays" class="count-num">--</div>
+            <div class="count-lbl">Days</div>
+          </div>
+          <div class="count-box">
+            <div id="cHours" class="count-num">--</div>
+            <div class="count-lbl">Hours</div>
+          </div>
+          <div class="count-box">
+            <div id="cMins" class="count-num">--</div>
+            <div class="count-lbl">Mins</div>
+          </div>
+          <div class="count-box">
+            <div id="cSecs" class="count-num">--</div>
+            <div class="count-lbl">Secs</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hero Actions -->
+      <div class="hero-actions">
+        <a href="#quiz" class="btn-main btn-gold">
+          🎯 Play Amit's Quiz
+        </a>
+        <a href="#rsvp" class="btn-main btn-glass">
+          📲 RSVP on WhatsApp
+        </a>
+      </div>
+    </header>
+
+    <!-- ══════════════════════════════════════════
+         SECTION 1: THE STORY / MILESTONE
+    ══════════════════════════════════════════ -->
+    <section class="section-wrap" id="story">
+      <div class="sec-header">
+        <span class="sec-kicker">The Milestone</span>
+        <h2 class="sec-title">Some birthdays are numbers.<br>This one is a 50-year story.</h2>
+        <p class="sec-sub">From school benches and shared lunches to half a century of life—some bonds simply refuse to grow old.</p>
+      </div>
+
+      <div class="story-card">
+        <p class="story-quote">
+          “50 is not old.<br>It is just 18… with 32 years of experience!” 😎
+        </p>
+        <p class="story-body">
+          Amit is celebrating this milestone with the very people who knew him before the grey hairs, before the adult responsibilities… and long before anyone started pretending to be mature. 😂
+        </p>
+
+        <div class="milestone-badges">
+          <div class="m-badge">
+            <strong>49</strong>
+            <span>Completed</span>
+          </div>
+          <div class="m-badge">
+            <strong>50</strong>
+            <span>Golden Era</span>
+          </div>
+          <div class="m-badge">
+            <strong>∞</strong>
+            <span>Old Friends</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         SECTION 2: 50 YEARS MINI-QUIZ (BEFORE VENUE!)
+    ══════════════════════════════════════════ -->
+    <section class="section-wrap" id="quiz">
+      <div class="sec-header">
+        <span class="sec-kicker">The Ultimate Friendship Test</span>
+        <h2 class="sec-title">🎯 How Well Do You Really Know Amit?</h2>
+        <p class="sec-sub">Answer these 5 quick questions before meeting the birthday boy! Let's see who earns bragging rights at the bar.</p>
+      </div>
+
+      <div class="quiz-card">
+        <div class="rules-banner">
+          ⚡ <strong>Official Party Rules:</strong> No Googling. No asking Amit. And strictly NO cheating by texting his wife! 😂
+        </div>
+
+        <form id="amitQuizForm">
+          <!-- Question 1 -->
+          <div class="question-block">
+            <span class="q-tag">Question 01</span>
+            <div class="q-text">What is Amit's absolute favourite weekend vibe?</div>
+            <div class="options-grid">
+              <div class="quiz-option">
+                <input type="radio" name="q1" id="q1a" value="Travel">
+                <label for="q1a"><span class="radio-indicator"></span> ✈️ Pack bags & travel somewhere</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q1" id="q1b" value="Friends">
+                <label for="q1b"><span class="radio-indicator"></span> 🥂 Catch up with friends & good food</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q1" id="q1c" value="Home">
+                <label for="q1c"><span class="radio-indicator"></span> 🏠 Chill in pyjamas at home</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q1" id="q1d" value="Adventure">
+                <label for="q1d"><span class="radio-indicator"></span> 🚗 Spontaneous road trip adventure</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="question-block">
+            <span class="q-tag">Question 02</span>
+            <div class="q-text">Which colour will you almost always catch Amit rocking?</div>
+            <div class="options-grid">
+              <div class="quiz-option">
+                <input type="radio" name="q2" id="q2a" value="Black">
+                <label for="q2a"><span class="radio-indicator"></span> 🖤 Classic Black (His signature style!)</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q2" id="q2b" value="Blue">
+                <label for="q2b"><span class="radio-indicator"></span> 💙 Royal Blue</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q2" id="q2c" value="White">
+                <label for="q2c"><span class="radio-indicator"></span> 🤍 Crisp White</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q2" id="q2d" value="Other">
+                <label for="q2d"><span class="radio-indicator"></span> 🌈 Whatever is ironed first!</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="question-block">
+            <span class="q-tag">Question 03</span>
+            <div class="q-text">Which hobby sounds 100% like Amit?</div>
+            <div class="options-grid">
+              <div class="quiz-option">
+                <input type="radio" name="q3" id="q3a" value="Music">
+                <label for="q3a"><span class="radio-indicator"></span> 🎵 Vibing to timeless music</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q3" id="q3b" value="Reading">
+                <label for="q3b"><span class="radio-indicator"></span> 📚 Quiet reading in a corner</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q3" id="q3c" value="Travel">
+                <label for="q3c"><span class="radio-indicator"></span> 🌍 Exploring new places & cultures</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q3" id="q3d" value="Sports">
+                <label for="q3d"><span class="radio-indicator"></span> 🏏 Cheering loud for sports</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="question-block">
+            <span class="q-tag">Question 04</span>
+            <div class="q-text">What food would most likely make Amit say, “बस… अजून थोडं!”? 😋</div>
+            <div class="options-grid">
+              <div class="quiz-option">
+                <input type="radio" name="q4" id="q4a" value="Indian">
+                <label for="q4a"><span class="radio-indicator"></span> 🍛 Rich, authentic Indian dishes</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q4" id="q4b" value="Chinese">
+                <label for="q4b"><span class="radio-indicator"></span> 🥢 Spicy Indo-Chinese</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q4" id="q4c" value="Dessert">
+                <label for="q4c"><span class="radio-indicator"></span> 🍰 Any irresistible dessert</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q4" id="q4d" value="Anything">
+                <label for="q4d"><span class="radio-indicator"></span> 😋 Anything delicious shared with friends!</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 5 -->
+          <div class="question-block" style="border-color: rgba(245, 158, 11, 0.4);">
+            <span class="q-tag" style="color:var(--neon-coral);">Question 05 · The Ultimate Question</span>
+            <div class="q-text">What does Amit value above everything else?</div>
+            <div class="options-grid">
+              <div class="quiz-option">
+                <input type="radio" name="q5" id="q5a" value="Money">
+                <label for="q5a"><span class="radio-indicator"></span> 💰 Piles of money</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q5" id="q5b" value="Food">
+                <label for="q5b"><span class="radio-indicator"></span> 🍕 Unlimited delicious food</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q5" id="q5c" value="Friends">
+                <label for="q5c"><span class="radio-indicator"></span> ❤️ Friends & Brotherhood</label>
+              </div>
+              <div class="quiz-option">
+                <input type="radio" name="q5" id="q5d" value="Sleep">
+                <label for="q5d"><span class="radio-indicator"></span> 😴 10 hours of uninterrupted sleep</label>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" id="btnSubmitQuiz" class="btn-submit-quiz">
+            🏆 Lock Answers & Check My Score!
+          </button>
+        </form>
+
+        <!-- Quiz Result Display -->
+        <div id="quizResultBox" class="quiz-result-box">
+          <div class="score-circle">
+            <span id="resScoreNum" class="score-num">5</span>
+            <span class="score-max">OUT OF 5</span>
+          </div>
+          <h3 id="resBadgeTitle" class="score-badge-title">👑 Legendary Chaddi Buddy!</h3>
+          <p id="resScoreMsg" class="score-message">
+            You know Amit better than he knows himself! The first round of drinks at Rude Lounge is officially on Amit tonight.
+          </p>
+
+          <!-- Answers Breakdown -->
+          <div class="answers-breakdown">
+            <div class="ans-item">
+              <strong>Q1 • Weekend Vibe: 🥂 Friends & Laughs</strong>
+              Amit is a people's person—nothing beats an evening with the old gang.
+            </div>
+            <div class="ans-item">
+              <strong>Q2 • Signature Colour: 🖤 Black</strong>
+              Classic, sharp, and effortless—his all-time go-to shade!
+            </div>
+            <div class="ans-item">
+              <strong>Q3 • Favourite Hobby: 🎵 Music & Travel</strong>
+              Good beats and memorable journeys are in his DNA.
+            </div>
+            <div class="ans-item">
+              <strong>Q4 • Food Weakness: 😋 Anything with Good Company</strong>
+              Especially delicious food when everyone is laughing at the table!
+            </div>
+            <div class="ans-item">
+              <strong>Q5 • Core Value: ❤️ Friends & Brotherhood</strong>
+              Always hands down! School friendships remain his biggest treasure.
+            </div>
+          </div>
+
+          <!-- Share Result to WhatsApp -->
+          <a id="btnShareScore" class="btn-share-whatsapp" href="#" target="_blank" rel="noopener">
+            📲 WhatsApp My Score to Amit
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         SECTION 3: VENUE & ATMOSPHERE (RUDE LOUNGE POWAI)
+    ══════════════════════════════════════════ -->
+    <section class="section-wrap" id="venue">
+      <div class="sec-header">
+        <span class="sec-kicker">The Destination</span>
+        <h2 class="sec-title">📍 Rude Lounge, Powai</h2>
+        <p class="sec-sub">Open-air rooftop ambience, signature cocktails, and high-energy music. No treasure hunt required!</p>
+      </div>
+
+      <div class="venue-card">
+        <!-- User's Actual Venue Photos -->
+        <div class="venue-gallery">
+          <div class="venue-img-wrap">
+            <img src="venue-rooftop.png" alt="Rude Lounge Powai Rooftop Seating and Neon Ambience">
+            <div class="venue-badge-overlay">
+              <span>🌆 Open-Air Rooftop Vibe</span>
+            </div>
+          </div>
+          <div class="venue-img-wrap">
+            <img src="venue-bar.jpg" alt="Rude Lounge Powai Cocktail Bar">
+            <div class="venue-badge-overlay">
+              <span>🍸 Signature Drinks & Lounge</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="venue-content">
+          <div class="venue-name-row">
+            <h3 class="venue-title">Rude Lounge, Powai</h3>
+            <span class="vibe-tag">Rooftop Party</span>
+          </div>
+
+          <div class="venue-address">
+            <span class="venue-address-icon">📍</span>
+            <div>
+              <strong>Supreme Business Park</strong><br>
+              B-Wing, 8, South Avenue, Hiranandani Gardens, Powai,<br>
+              Mumbai, Maharashtra 400076
+            </div>
+          </div>
+
+          <button id="btnCopyAddress" class="copy-btn">
+            📋 Copy Full Address
+          </button>
+
+          <!-- Navigation Links -->
+          <div class="venue-nav-grid">
+            <a class="btn-maps"
+               href="https://maps.app.goo.gl/M5gQCP8AaDsvXMwd7"
+               target="_blank" rel="noopener">
+              📍 Open Google Maps & Directions
+            </a>
+            <div class="rides-row">
+              <a class="btn-ride"
+                 href="https://m.uber.com/ul/?action=setPickup&dropoff[formatted_address]=Rude%20Lounge%20Powai"
+                 target="_blank" rel="noopener">
+                🚗 Book Uber
+              </a>
+              <a class="btn-ride"
+                 href="https://olawebprod.page.link"
+                 target="_blank" rel="noopener">
+                🚕 Book Ola
+              </a>
+            </div>
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.622440318798!2d72.9082967!3d19.1109527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7e78792112f%3A0xf8a440bdf37bb42b!2sRude%20Lounge%20Powai!5e1!3m2!1sen!2sin!4v1791345607335!5m2!1sen!2sin"
+              allowfullscreen="" loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              title="Rude Lounge Powai Location Map">
+            </iframe>
+          </div>
+
+          <!-- Party Flow & Dress Code -->
+          <div class="itinerary-card">
+            <span class="sec-kicker" style="text-align:left;">The Plan For The Night</span>
+            <div class="timeline-steps">
+              <div class="step-item">
+                <div class="step-icon">🍸</div>
+                <div class="step-info">
+                  <strong>7:30 PM • Welcome & Rooftop Sips</strong>
+                  <span>Reunite, grab a drink, and warm up the banter</span>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="step-icon">🎂</div>
+                <div class="step-info">
+                  <strong>9:00 PM • The Golden 50 Cake & Cheers</strong>
+                  <span>Toasting half a century of Amit's legendary adventures</span>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="step-icon">🕺</div>
+                <div class="step-info">
+                  <strong>9:30 PM Onwards • Music, Dinner & Mischief</strong>
+                  <span>Dinner, dance, throwback school memories and endless laughs</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="dress-code-badge">
+              👔 <strong>Dress Code:</strong> Smart Casual & Party Chic (Wear your biggest smile!)
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         SECTION 4: 1-TAP RSVP & CALENDAR
+    ══════════════════════════════════════════ -->
+    <section class="section-wrap" id="rsvp">
+      <div class="sec-header">
+        <span class="sec-kicker">Confirm Your Spot</span>
+        <h2 class="sec-title">🥂 Be There For The Golden Jubilee!</h2>
+        <p class="sec-sub">Your presence is the real gift. Let Amit know you're coming with one simple tap!</p>
+      </div>
+
+      <div class="rsvp-box">
+        <div class="vip-tag">📲 Quick WhatsApp RSVP</div>
+        <h3 style="font-family:'Playfair Display',serif;font-size:22px;color:#fff;margin-bottom:8px;">
+          Will you be joining the celebration?
+        </h3>
+        <p style="font-size:14px;color:var(--text-muted);">Select your plan below to open a pre-filled WhatsApp message:</p>
+
+        <!-- Attendance selector -->
+        <div class="rsvp-attendance-selector">
+          <div class="rsvp-option">
+            <input type="radio" name="rsvpType" id="rsvpSolo" value="Count me in! Attending solo 🎉" checked>
+            <label for="rsvpSolo">🥳 Hell yes! Count me in (Solo)</label>
+          </div>
+          <div class="rsvp-option">
+            <input type="radio" name="rsvpType" id="rsvpPlusOne" value="Attending with +1 / Spouse 🥂">
+            <label for="rsvpPlusOne">🥂 Attending with +1 / Spouse</label>
+          </div>
+          <div class="rsvp-option">
+            <input type="radio" name="rsvpType" id="rsvpLater" value="Confirming in a few days! 👍">
+            <label for="rsvpLater">🤔 Confirming exact plan shortly!</label>
+          </div>
+        </div>
+
+        <a id="btnRsvpWhatsApp" class="btn-rsvp-whatsapp" href="#" target="_blank" rel="noopener">
+          📲 Send RSVP to Amit on WhatsApp
+        </a>
+
+        <!-- Calendar & Share Utilities -->
+        <div class="utility-grid">
+          <a id="btnGoogleCalendar" class="btn-utility" href="#" target="_blank" rel="noopener">
+            📅 Add to Google Calendar
+          </a>
+          <button id="btnDownloadIcs" class="btn-utility">
+            🍏 Apple / iCal (.ics)
+          </button>
+        </div>
+
+        <button id="btnShareInvite" class="btn-utility" style="width:100%;margin-top:10px;">
+          🔗 Share This Invitation
+        </button>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         FOOTER
+    ══════════════════════════════════════════ -->
+    <footer class="site-footer">
+      <h2 class="footer-quote">“Come with your memories.<br>Leave with new ones.” 🥂</h2>
+      <p class="footer-sub">50 Years of Amit Javali • School Friends Reunion • Saturday, 31 October 2026</p>
+      <div class="footer-credit">Rude Lounge, Powai • Mumbai</div>
+    </footer>
+
+  </main>
+
+  <!-- Toast Notification element -->
+  <div id="toast" class="toast-msg"></div>
+
+  <!-- ══════════════════════════════════════════
+       JAVASCRIPT LOGIC
+  ══════════════════════════════════════════ -->
+  <script>
+    /* ─────────────────────────────────────────
+       EVENT CONFIGURATION
+       (Change phone number or defaults here)
+    ───────────────────────────────────────── */
+    const EVENT_CONFIG = {
+      name: "Amit Javali",
+      dateStr: "2026-10-31T19:30:00+05:30", // Saturday, 31 Oct 2026, 7:30 PM IST
+      venueName: "Rude Lounge, Powai",
+      address: "B-Wing, Supreme Business Park, 8, South Avenue, Hiranandani Gardens, Powai, Mumbai 400076",
+      mapsUrl: "https://maps.app.goo.gl/M5gQCP8AaDsvXMwd7",
+      // Set Amit's WhatsApp phone number in international format without '+' or spaces, e.g. '919820000000'.
+      // If left empty, WhatsApp opens contact picker so user can pick Amit!
+      whatsappNumber: "", 
+      correctAnswers: {
+        q1: "Friends",   // 🥂 Catch up with friends
+        q2: "Black",     // 🖤 Classic Black
+        q3: "Music",     // 🎵 Vibing to music (or Travel)
+        q4: "Anything",  // 😋 Anything delicious with friends
+        q5: "Friends"    // ❤️ Friends & Brotherhood
+      }
+    };
+
+    /* ─────────────────────────────────────────
+       1. ENTRANCE OVERLAY & AUDIO SYNTHESIZER
+    ───────────────────────────────────────── */
+    const entranceOverlay = document.getElementById("entranceOverlay");
+    const btnOpenInvite = document.getElementById("btnOpenInvite");
+    const audioToggleBtn = document.getElementById("audioToggleBtn");
+    const audioBtnText = document.getElementById("audioBtnText");
+
+    // Party Celebration Synthesizer using Web Audio API
+    // Produces an upbeat, joyful ambient celebration groove without external asset errors
+    let audioCtx = null;
+    let isPlaying = false;
+    let synthInterval = null;
+
+    function initAudio() {
+      if (!audioCtx) {
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        audioCtx = new AudioContext();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+
+    function playPartyNote(freq, type = 'sine', duration = 0.5, gainVal = 0.08) {
+      if (!audioCtx || !isPlaying) return;
+      try {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+        gain.gain.setValueAtTime(gainVal, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + duration);
+      } catch(e) {}
+    }
+
+    // Joyful melodic pattern chords for celebration
+    const melodyScale = [261.63, 329.63, 392.00, 523.25, 587.33, 659.25]; // C, E, G, C5, D5, E5
+    let stepCount = 0;
+
+    function startPartyGroove() {
+      if (synthInterval) clearInterval(synthInterval);
+      synthInterval = setInterval(() => {
+        if (!isPlaying) return;
+        const note = melodyScale[stepCount % melodyScale.length];
+        playPartyNote(note, 'triangle', 0.4, 0.06);
+        // Soft celebration bass pulse
+        if (stepCount % 2 === 0) {
+          playPartyNote(130.81, 'sine', 0.6, 0.09); // C3 bass
+        }
+        stepCount++;
+      }, 420);
+    }
+
+    function stopPartyGroove() {
+      if (synthInterval) clearInterval(synthInterval);
+    }
+
+    function toggleMusic() {
+      initAudio();
+      isPlaying = !isPlaying;
+      if (isPlaying) {
+        audioToggleBtn.classList.add("playing");
+        audioBtnText.textContent = "🔊 Music ON";
+        startPartyGroove();
+      } else {
+        audioToggleBtn.classList.remove("playing");
+        audioBtnText.textContent = "🎵 Music Muted";
+        stopPartyGroove();
+      }
+    }
+
+    audioToggleBtn.addEventListener("click", toggleMusic);
+
+    btnOpenInvite.addEventListener("click", () => {
+      entranceOverlay.classList.add("revealed");
+      // Trigger festive celebratory confetti
+      fireFestiveConfetti();
+      // Start background celebration music
+      toggleMusic();
+    });
+
+    /* ─────────────────────────────────────────
+       2. CONFETTI CELEBRATION
+    ───────────────────────────────────────── */
+    function fireFestiveConfetti() {
+      if (typeof confetti === 'function') {
+        confetti({
+          particleCount: 80,
+          spread: 70,
+          origin: { y: 0.6 },
+          colors: ['#fbbf24', '#f59e0b', '#ff5277', '#9d4edd', '#00f2fe', '#ffffff']
+        });
+      }
+    }
+
+    function fireBigCelebration() {
+      if (typeof confetti === 'function') {
+        const count = 200;
+        const defaults = { origin: { y: 0.7 } };
+        function fire(particleRatio, opts) {
+          confetti(Object.assign({}, defaults, opts, {
+            particleCount: Math.floor(count * particleRatio)
+          }));
+        }
+        fire(0.25, { spread: 26, startVelocity: 55 });
+        fire(0.2, { spread: 60 });
+        fire(0.35, { spread: 100, decay: 0.91, scalar: 0.8 });
+        fire(0.1, { spread: 120, startVelocity: 25, decay: 0.92, scalar: 1.2 });
+        fire(0.1, { spread: 120, startVelocity: 45 });
+      }
+    }
+
+    /* ─────────────────────────────────────────
+       3. LIVE COUNTDOWN TIMER
+    ───────────────────────────────────────── */
+    const partyTime = new Date(EVENT_CONFIG.dateStr).getTime();
+    const cDays = document.getElementById("cDays");
+    const cHours = document.getElementById("cHours");
+    const cMins = document.getElementById("cMins");
+    const cSecs = document.getElementById("cSecs");
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const diff = partyTime - now;
+
+      if (diff <= 0) {
+        cDays.textContent = "00";
+        cHours.textContent = "00";
+        cMins.textContent = "00";
+        cSecs.textContent = "00";
+        return;
+      }
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const secs = Math.floor((diff % (1000 * 60)) / 1000);
+
+      cDays.textContent = days < 10 ? '0' + days : days;
+      cHours.textContent = hours < 10 ? '0' + hours : hours;
+      cMins.textContent = mins < 10 ? '0' + mins : mins;
+      cSecs.textContent = secs < 10 ? '0' + secs : secs;
+    }
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+
+    /* ─────────────────────────────────────────
+       4. 5-QUESTION QUIZ SCORING & BADGES
+    ───────────────────────────────────────── */
+    const quizForm = document.getElementById("amitQuizForm");
+    const quizResultBox = document.getElementById("quizResultBox");
+    const resScoreNum = document.getElementById("resScoreNum");
+    const resBadgeTitle = document.getElementById("resBadgeTitle");
+    const resScoreMsg = document.getElementById("resScoreMsg");
+    const btnShareScore = document.getElementById("btnShareScore");
+
+    quizForm.addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const qKeys = ["q1", "q2", "q3", "q4", "q5"];
+      let answeredCount = 0;
+      let score = 0;
+      let userAnswers = {};
+
+      qKeys.forEach(k => {
+        const checked = document.querySelector(`input[name="${k}"]:checked`);
+        if (checked) {
+          answeredCount++;
+          userAnswers[k] = checked.value;
+          if (checked.value === EVENT_CONFIG.correctAnswers[k]) {
+            score++;
+          }
+        }
+      });
+
+      if (answeredCount < 5) {
+        showToast(`Please answer all 5 questions! (${answeredCount}/5 answered)`);
+        return;
+      }
+
+      // Display Score
+      resScoreNum.textContent = score;
+
+      let badge = "";
+      let message = "";
+
+      if (score === 5) {
+        badge = "👑 Legendary Chaddi Buddy!";
+        message = "Flawless 5/5! You know Amit better than he knows himself. The first round of drinks is officially on Amit tonight!";
+      } else if (score === 4) {
+        badge = "🥇 Inner Circle VIP!";
+        message = "A mighty 4/5! You've definitely been paying close attention over the decades. You have earned your VIP seat!";
+      } else if (score === 3) {
+        badge = "🥈 Certified True Friend!";
+        message = "A solid 3/5! Not bad at all. A couple of cocktails at Rude Lounge will quickly jog your memory!";
+      } else {
+        badge = "🥉 Mischief Maker!";
+        message = "Uh-oh... Amit would like to have a serious word with you at the bar! Better buy him a drink first! 😂";
+      }
+
+      resBadgeTitle.textContent = badge;
+      resScoreMsg.textContent = message;
+
+      // Prepare WhatsApp Share URL
+      const shareText = encodeURIComponent(
+        `Hey Amit! 🥂 Just took your 50th Birthday Quiz on your digital invite!\n` +
+        `🏆 My Score: ${score}/5 — "${badge}"\n\n` +
+        `Can't wait to celebrate half a century of awesomeness with you on Saturday, 31st Oct at Rude Lounge Powai! 🎉`
+      );
+      const targetPhone = EVENT_CONFIG.whatsappNumber ? EVENT_CONFIG.whatsappNumber : "";
+      btnShareScore.href = `https://wa.me/${targetPhone}?text=${shareText}`;
+
+      quizResultBox.style.display = "block";
+      fireBigCelebration();
+
+      quizResultBox.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+
+    /* ─────────────────────────────────────────
+       5. 1-TAP RSVP & WHATSAPP GENERATION
+    ───────────────────────────────────────── */
+    const btnRsvpWhatsApp = document.getElementById("btnRsvpWhatsApp");
+
+    function updateRsvpLink() {
+      const selectedRsvp = document.querySelector('input[name="rsvpType"]:checked')?.value || "Count me in! 🎉";
+      const message = encodeURIComponent(
+        `Hey Amit! 🎉\n` +
+        `I received your 50th Birthday invitation for Saturday, 31 October 2026 at Rude Lounge, Powai.\n\n` +
+        `📌 My RSVP: ${selectedRsvp}\n\n` +
+        `See you there for the big 5-0 celebration! 🥂`
+      );
+      const targetPhone = EVENT_CONFIG.whatsappNumber ? EVENT_CONFIG.whatsappNumber : "";
+      btnRsvpWhatsApp.href = `https://wa.me/${targetPhone}?text=${message}`;
+    }
+
+    document.querySelectorAll('input[name="rsvpType"]').forEach(radio => {
+      radio.addEventListener("change", updateRsvpLink);
+    });
+    updateRsvpLink();
+
+    btnRsvpWhatsApp.addEventListener("click", () => {
+      fireFestiveConfetti();
+    });
+
+    /* ─────────────────────────────────────────
+       6. CALENDAR INTEGRATION (GOOGLE & .ICS)
+    ───────────────────────────────────────── */
+    const btnGoogleCalendar = document.getElementById("btnGoogleCalendar");
+    const btnDownloadIcs = document.getElementById("btnDownloadIcs");
+
+    const gCalTitle = encodeURIComponent("Amit Javali's 50th Birthday Celebration 🥂🎉");
+    const gCalDetails = encodeURIComponent(
+      "Join us to celebrate Amit Javali stepping into the big 5-0 with school friends!\n\n" +
+      "📍 Venue: Rude Lounge, Powai, Mumbai\n" +
+      "⏰ Time: 7:30 PM Onwards\n" +
+      "👔 Dress Code: Smart Casual / Party Chic\n\n" +
+      "Google Maps: " + EVENT_CONFIG.mapsUrl
+    );
+    const gCalLocation = encodeURIComponent("Rude Lounge, Powai, B-Wing, Supreme Business Park, Mumbai 400076");
+    btnGoogleCalendar.href = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${gCalTitle}&dates=20261031T140000Z/20261031T180000Z&details=${gCalDetails}&location=${gCalLocation}`;
+
+    btnDownloadIcs.addEventListener("click", () => {
+      const icsData = 
+`BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Amit Javali 50th Celebration//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:amit-50th-birthday-20261031@party
+DTSTAMP:20261007T000000Z
+DTSTART:20261031T140000Z
+DTEND:20261031T180000Z
+SUMMARY:Amit Javali's 50th Birthday Celebration 🥂🎉
+DESCRIPTION:Celebrating Amit Javali turning 50 with school friends! 7:30 PM onwards at Rude Lounge, Powai.
+LOCATION:Rude Lounge, B-Wing, Supreme Business Park, Hiranandani Gardens, Powai, Mumbai 400076
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR`;
+
+      const blob = new Blob([icsData], { type: "text/calendar;charset=utf-8" });
+      const link = document.createElement("a");
+      link.href = window.URL.createObjectURL(blob);
+      link.setAttribute("download", "Amit-Javali-50th-Birthday.ics");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      showToast("📅 Calendar event downloaded!");
+    });
+
+    /* ─────────────────────────────────────────
+       7. COPY ADDRESS & SHARE INVITATION
+    ───────────────────────────────────────── */
+    const btnCopyAddress = document.getElementById("btnCopyAddress");
+    const btnShareInvite = document.getElementById("btnShareInvite");
+
+    btnCopyAddress.addEventListener("click", () => {
+      navigator.clipboard.writeText(EVENT_CONFIG.address).then(() => {
+        showToast("📍 Address copied to clipboard!");
+      }).catch(() => {
+        showToast("Address: " + EVENT_CONFIG.address);
+      });
+    });
+
+    btnShareInvite.addEventListener("click", () => {
+      const shareData = {
+        title: "Amit Javali's 50th Birthday Celebration 🎉",
+        text: "Amit Javali is turning 50! Saturday, 31 October 2026 at Rude Lounge, Powai. Open the invitation and play the 50 Years quiz:",
+        url: window.location.href
+      };
+
+      if (navigator.share) {
+        navigator.share(shareData).catch(() => {});
+      } else {
+        navigator.clipboard.writeText(window.location.href).then(() => {
+          showToast("🔗 Invitation link copied to clipboard!");
+        });
+      }
+    });
+
+    /* ─────────────────────────────────────────
+       8. TOAST NOTIFICATION HELPER
+    ───────────────────────────────────────── */
+    const toast = document.getElementById("toast");
+    let toastTimeout = null;
+
+    function showToast(msg) {
+      if (toastTimeout) clearTimeout(toastTimeout);
+      toast.textContent = msg;
+      toast.classList.add("show");
+      toastTimeout = setTimeout(() => {
+        toast.classList.remove("show");
+      }, 3200);
+    }
+  </script>
+</body>
+</html>
